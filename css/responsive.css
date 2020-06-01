@@ -1,0 +1,164 @@
+@media screen and (max-width: 900px){
+	#home{
+		height: 510px;
+		background-size: 920px 555px;
+		transition: 1s;
+	}
+	#redes-mobiles{
+		margin-right: 10px;
+	}
+	#redes-mobiles ul span{
+		font-size: 8px;
+		transition: 3s;
+	}
+	#idioma{
+		margin-left: 25px;
+	}
+	#idioma ul a{
+		font-size: 8px;
+		transition: 3s;
+	}
+	#logo img{
+		width: 70px;
+		height: 70px;
+	}
+	#menu a{
+		font-size: 14px;
+		float:left;
+		transition: 1s;
+	}
+	#cuerpo{
+		margin: 190px 0px 0px 25px;
+	}
+	#texto1{
+		font-size: 15px;
+		transition: 1s;
+	}
+	#texto2{
+		font-size: 37px;
+		transition: 1s;
+	}
+	#cuerpo ul a{
+		padding: 8px 18px;
+		font-size: 9px;
+		transition: 1s;
+	}
+	#whatsapp img{
+		width: 23px;
+		height: 23px;
+		margin: 42px -3px 0px 0px;
+		transition: 1s;
+	}
+
+	
+	/*seccion articulos*/
+	#articulos{
+		height: 100%;
+	}
+	#seccion-articulos {
+		display: block;
+	}
+	.text-articulos{
+		margin-top: 20px;
+	}
+
+	/*seccion destinos*/
+	#destinos{
+		margin-top: 100px;
+	}
+	#campo{
+		display: none;
+	}
+	#cuerpo-destinos{
+		display: block;
+		height: 100%;
+	}
+	#argentina{
+		background-size: 300px 428px;
+		border: solid 2px transparent; 
+	}
+	.pais{ 
+		margin-bottom: 100px;
+	}
+
+	#brasil1{
+		background-size: 300px 428px;
+		border: solid 2px transparent; 
+	}
+	#brasil2{
+		background-size: 300px 428px;
+		border: solid 2px transparent; 
+	}
+	#brasil3{
+		background-size: 300px 428px;
+		border: solid 2px transparent; 
+	}
+
+	#boton-destinos{
+		margin-bottom: 50px;
+	}
+	
+	#boton-destinos a{
+		padding: 10px 30px;
+		font-size: 15px;
+	}
+
+	/*seccion servicios*/
+	#servicios{
+		margin-top: 1500px;
+		height: 100%;
+	}
+	#titulo-servicios{
+		font-size: 15px;
+		transition: 1s;
+	}
+	#titulo-servicios h3{
+		font-size: 25px;
+		transition: 1s;
+	}
+	#serviciosperrosgatos{
+		display: block;
+	}
+	.serviciosCat{
+		margin-top: 30px;
+	}
+	#boton{
+		margin-bottom: 50px;
+	}
+	#boton a{
+		padding: 10px 50px;
+		font-size: 13px;
+	}
+
+	/*seccion quienes somos*/
+	#caja-nosotros{
+		margin-left: 50px;
+		transition: 3s;
+	}
+	#nosotros{
+		color: white;
+		transition: 1s;
+	}
+
+	/*seccion footer*/
+	#imagenes-instagram{
+		display: block;
+	}
+	#footer{
+		height: 970px;
+	}
+
+	#footer-pie{
+		display: block;
+	}
+
+	.titulos-footer{
+		margin-top: 50px;
+	}
+	#piedepagina h3{
+		padding: 5px;
+		font-size: 11px;
+		margin-left: 120px;
+	}
+
+}

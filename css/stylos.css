@@ -1,0 +1,526 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+header{
+	height: 575px;
+	border: solid 2px transparent;
+}
+@keyframes items {
+  from {
+    margin-left: 100%;
+    width: 300%;
+
+  }
+
+  to {
+    margin-left: 1px;
+    width: 100%;
+  }
+}
+
+@keyframes fondo {
+  from {
+    margin-left: 100%;
+    width: 300%;
+
+  }
+
+  to {
+    margin-left: 15px;
+    width: 100%;
+    background: url(../imagenes/dondo1.jpg) center;
+    background-size: 1300px 900px;
+  }
+}
+#home{
+	height: 676px;
+	background: url(../imagenes/fondo.jpg) center;
+	background-size: 1300px 900px;
+	animation-name: fondo;
+	animation-duration: 7s;
+}
+
+#idioma{
+	margin: 20px 0px 0px 100px;
+}
+
+#idioma ul a{
+	text-decoration: none;
+	color: black;
+	margin-right: 15px;
+	font-size: 11px;
+}
+
+#redes-mobiles{
+	text-align: right;
+	margin: -21px 85px 0px 0px;
+}
+#redes-mobiles ul a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #700A91;
+	margin: 4px;
+	cursor: pointer;
+}
+
+#logo{
+	text-align: center;
+	margin-top: -22px;
+}
+
+#logo img{
+	height: 100px;
+	width: 100px;
+	margin: -5px 0px -4px 0px;
+}
+
+#contacto{
+	background-color: #767373;
+	color: white;
+	padding: 2px 5px 2px 5px;
+}
+#menu ul a{
+	color: black;
+	text-decoration: none;
+	padding: 5px 16px 5px 20px;
+	border: solid 2px transparent;
+	animation-duration: 3s;
+	animation-name: items;
+}
+
+#menu ul a:hover{
+	color: #700A91;
+	box-shadow: 2px 2px 2px 0.5px #969696;
+}
+
+#cuerpo{
+	margin: 170px 0px 0px 105px;
+}
+
+#cuerpo ul span {
+	display: block;
+}
+
+#texto1{
+	font-size: 27px;
+	color: #956CA2;
+}
+
+#texto2{
+	font-size: 4.8em;
+	margin-bottom: 60px;
+	color: #510D68;
+	font-family: cooper black;
+}
+
+#cuerpo ul a{
+	text-decoration: none;
+	box-shadow: 0px 0px 1px 1.5px #996EA7;
+	margin-right: 5px;
+	padding: 14px 43px;
+	color: #7E229C;
+	font-weight: bold;
+	transition: background 0.8s, color 0.8s;
+}
+
+#cuerpo ul a:hover{
+	color: white;
+	background: #510D68;
+	text-shadow: 0px 0px 1.5px white;
+}
+
+#whatsapp{
+	float: right;
+	margin-top: -140px;
+}
+
+#whatsapp img{
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+}
+
+
+
+/*Seccion Articulos*/
+
+#articulos{
+	height: 550px;
+}
+#titulo-articulos h3{
+	color: #61107B;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: arial black;
+}
+#titulo-articulos a{
+	float: right;
+	margin-top: -35px;
+	color: #61107B;
+}
+#seccion-articulos{
+	display: flex;
+}
+#cuerpo-articulos{
+	margin: 50px 110px 0px 120px;
+}
+.text-articulos{
+	margin-right: 20px;
+	text-align: left;
+}
+.text-articulos img{
+	width: 345px;
+	height: 220px;
+}
+
+
+
+
+/* Seccion destinos*/
+
+#destinos{
+	height: 700px;
+}
+#titulo-destinos h3{
+	color: #61107B;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: arial black;
+}
+#titulo-destinos a{
+	float: right;
+	margin-top: -35px;
+	color: #61107B;
+}
+#cuerpo-destinos{
+	display: flex;
+	height: 450px;
+	margin-top: 20px;
+}
+
+#argentina{
+	background: url(../imagenes/gato.jpg) no-repeat center;
+	flex: 20%;
+	background-size: 330px 458px;
+	margin-right: 18px;
+}
+#argentina h4{
+	margin: 45px 0px 8px 0px;
+}
+
+.pais{
+	text-decoration: none;
+	color: black;
+	margin-top: 280px;
+}
+.pais a{
+	text-decoration: none;
+	color: white;
+	background: #510D68;
+	padding: 8px 50px;
+	border: solid 2px #4E0873;
+	text-shadow: 0px 0px 2px white;
+	transition: background 1s, color 1s;
+}
+
+.pais a:hover{
+	color: #510D68;
+	background: white;
+	border: solid 2px #EBD1F9;
+	font-weight: bold; 
+}
+
+
+#brasil1{
+	background: url(../imagenes/perrito.jpg)no-repeat center;
+	flex: 20%;
+	background-size: 330px 458px;
+	margin-right: 18px;
+}
+#brasil1 h4{
+	margin: 45px 0px 8px 0px;
+}
+
+
+#brasil2{
+	background: url(../imagenes/mirar.jpg)no-repeat center;
+	flex: 20%;
+	background-size: 330px 458px;
+	margin-right: 18px;
+}
+#brasil2 h4{
+	margin: 45px 0px 8px 0px;
+}
+
+
+#brasil3{
+	background: url(../imagenes/correr.jpg)no-repeat center;
+	flex: 20%;
+	background-size: 330px 458px;
+}
+#brasil3 h4{
+	margin: 45px 0px 8px 0px;
+}
+#campo{
+	display: block;
+	margin-top: -250px;
+	height: 450px;
+	border: solid 2px transparent;
+	background: #510D68;
+}
+
+#boton-destinos{
+	margin-top: 350px;
+}
+
+#boton-destinos a{
+	text-decoration: none;
+	box-shadow: 0px 0px 1px 1.5px #996EA7;
+	padding: 12px 95px;
+	color: #A853C4;
+	font-weight: bold;
+	transition: background 0.8s, color 0.8s;
+}
+
+#boton-destinos a:hover{
+	color: white;
+	background: #761198;
+	text-shadow: 0px 0px 1.5px white;
+}
+
+
+
+/*seccion Servicios*/
+
+#titulo-servicios h3{
+	color: #61107B;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: arial black;
+}
+#titulo-servicios a{
+	float: right;
+	margin-top: -35px;
+	color: #61107B;
+}
+
+#servicios{
+	height: 740px;
+	margin-top: 100px;
+}
+
+.serviciosCat img{
+	width: 250px;
+	height: 350px;
+}
+
+#serviciosperrosgatos{
+	display: flex;
+	margin-top: 50px;
+	margin: 0px 100px;
+}
+
+.serviciosCat{
+	margin-right: 13px;
+}
+
+#boton{
+	margin-top: 70px;
+}
+
+#boton a{
+	text-decoration: none;
+	box-shadow: 0px 0px 1px 1.5px #996EA7;
+	padding: 12px 95px;
+	color: #7E229C;
+	font-weight: bold;
+	transition: background 0.8s, color 0.8s;
+}
+
+#boton a:hover{
+	color: white;
+	background: #510D68;
+	text-shadow: 0px 0px 1.5px white;
+}
+
+/*seccion quienes somos*/
+#nosotros{
+	border: solid 2px transparent;
+	background: url(../imagenes/negro.jpg) center;
+	background-size: 1250px 670px;
+
+}
+
+#caja-nosotros{
+	text-align: left;
+	width: 380px;
+	height: 430px;
+	margin: 140px 0px 0px 640px;
+}
+
+#titulo-nosotros h3{
+	color: #61107B;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: arial black;
+}
+
+#titulo-nosotros a{
+	float: right;
+	margin-top: -30px;
+	color: #61107B;
+}
+
+#servicios-nosotros ul span{
+	color: #61107B;
+}
+
+
+
+/*footer instagram*/
+#instagram{
+	border: solid 2px transparent;
+	margin-top: 70px;
+}
+#titulo-instagram h3{
+	color: #61107B;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: arial black;
+}
+
+#titulo-instagram a{
+	float: right;
+	margin-top: -35px;
+	color: #61107B;
+}
+
+#imagenes-instagram{
+	height: 150px;
+	display: flex;
+	margin-top: 40px;
+}
+
+#imagen1{
+	flex: 12%;
+	background: url(../imagenes/imagen1.jpg) center;
+	border: solid 2px white;
+	background-size: 250px 250px;
+}
+#imagen2{
+	flex: 12%;
+	background: url(../imagenes/imagen2.jpg)no-repeat;
+	border: solid 2px white;
+	background-size: 160px 230px;
+}
+#imagen3{
+	flex: 12%;
+	background: url(../imagenes/imagen3.jpg)no-repeat;
+	border: solid 2px white;
+	background-size: 160px 170px;
+}
+#imagen4{
+	flex: 12%;
+	background: url(../imagenes/imagen4.jpg)no-repeat;
+	border: solid 2px white;
+	background-size: 160px 150px;
+}
+#imagen5{
+	flex: 12%;
+	background: url(../imagenes/imagen5.jpg) center;
+	border: solid 2px white;
+	background-size: 100px 150px;
+}
+#imagen6{
+	flex: 12%;
+	background: url(../imagenes/imagen6.jpg)center;
+	border: solid 2px white;
+	background-size: 100px 150px;
+}
+#imagen7{
+	flex: 12%;
+	background: url(../imagenes/imagen7.jpg)no-repeat;
+	border: solid 2px white;
+	background-size: 150px 150px;
+}
+#imagen8{
+	flex: 12%;
+	background: url(../imagenes/imagen8.jpg)no-repeat;
+	border: solid 2px white;
+	background-size: 150px 150px;
+}
+#imagen9{
+	flex: 12%;
+	background: url(../imagenes/imagen9.jpg)no-repeat;
+	border: solid 2px white;
+	background-size: 150px 150px;
+}
+
+#mapa img{
+	width: 100%;
+	height: 200px;
+	border: solid 2px white;
+}
+
+#footer{
+	background: #510D68; 
+	border: solid 2px transparent;
+	height: 490px;
+}
+#cuerpo-footer{
+	margin: 130px 70px 0px 70px;
+}
+
+#footer-pie{
+	display: flex;
+	text-align: left;
+}
+
+.titulos-footer img{
+	height: 50px;
+	width: 50px;
+	margin: 0px 0px -13px 0px;
+}
+
+.titulos-footer{
+	font-size: 12px;
+	margin: 0px 30px 0px 55px;
+	color: #B0ACAC;
+}
+.titulos-footer h3{
+	font-size: 15px;
+	color: #CFCFCF;
+}
+.titulos-footer a{
+	text-decoration: none;
+	display: block;
+	color: #CFCFCF;
+	padding-top: 8px;
+}
+.titulos-footer a:hover{
+	color: #F825E7;
+}
+
+.contenido{
+	display: flex;
+	margin-top: 10px;
+	height: 70px;
+}
+.contenido img{
+	height: 70px;
+	width: 100px;
+	margin-right: :15px;
+}
+#piedepagina{
+	text-align: left;
+	background: #3E0A4B;
+}
+#piedepagina h3{
+	margin-left: 100px;
+	color: #CFCFCF;
+	font-size: 13px;
+	padding: 25px;
+}
